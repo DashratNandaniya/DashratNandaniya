@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+nav{
+    background: #181318;
+    height: 40px;
+    width: 100%;
+}
+.DV{
+    color: rgb(245, 58, 11);
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    height:100%;
+    margin-right: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+    color:silver;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 3px 7px;
+    text-align: center;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+}
+.menu :hover{
+    background: rgb(208, 14, 150);
+    transition: .2s;
+    border-radius: 4px;
+}
+.product-icons{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    gap: 8px;
+    width:fit-content;
+    height: fit-content;
+    box-sizing:border-box ;
+}
+.icon:hover{
+    color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap:8px;
+}
+.icon img{
+    height: 50px;;
+}
+.fotter{
+    margin-top: 20px;
+    background-color: #181318;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-color: azure;
+    justify-content: space-evenly;
+    text-align: none;
+}
+span{
+    color: aliceblue;
+}
