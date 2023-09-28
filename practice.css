@@ -14,12 +14,12 @@ body{
     
 }
 nav{
-    background: #181318;
+    background: #df58df;
     height: 40px;
     width: 100%;
 }
-.DV{
-    color: rgb(245, 58, 11);
+.ad{
+    color: rgb(194, 55, 20);
     font-size: 30px;
     line-height: 30px;
     font-weight: bold;
@@ -36,7 +36,7 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin: 0 5px;
-    color:silver;
+    color:rgb(24, 11, 11);
     font-size: 18px;
     text-transform: uppercase;
     padding: 3px 7px;
@@ -46,7 +46,7 @@ nav ul li{
     top: 0;
 }
 .menu :hover{
-    background: rgb(208, 14, 150);
+    background: rgb(235, 28, 5);
     transition: .2s;
     border-radius: 4px;
 }
@@ -70,15 +70,31 @@ nav ul li{
 .icon img{
     height: 50px;;
 }
-.fotter{
-    margin-top: 20px;
-    background-color: #181318;
+ .fotter{
+    /*background-color: #f5ebf5; */
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration-color: azure;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: none;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 span{
-    color: aliceblue;
+    color: black;
+    font-size: 1.5em;
+}
+a{
+    color: black;
+    text-decoration: solid;
+}
+ li:hover{
+    background: rgb(235, 28, 5);
+    transition: .02s;
+    border-radius: 4px;
+}
+ul{
+   
 }
